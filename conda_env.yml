@@ -1,0 +1,16 @@
+name: dmqmcgpr
+channels:
+  - defaults
+dependencies:
+  - python=3.9.12
+  - numpy=1.21.5
+  - scipy=1.7.3
+  - six=1.16.0
+  - pandas=1.4.1
+  - matplotlib=3.5.1
+  - pytest=7.1.1
+  - pip=21.2.4
+  - pip:
+      - cython==0.29.28
+      - gpy==1.10.0
+      - paramz==0.9.5
